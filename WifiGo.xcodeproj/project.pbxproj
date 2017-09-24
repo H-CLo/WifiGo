@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0787A68F1F781B3D00CC4C49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787A68E1F781B3D00CC4C49 /* AppDelegate.swift */; };
+		0787A6911F781B3D00CC4C49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787A6901F781B3D00CC4C49 /* ViewController.swift */; };
+		0787A6941F781B3D00CC4C49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0787A6921F781B3D00CC4C49 /* Main.storyboard */; };
+		0787A6961F781B3D00CC4C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0787A6951F781B3D00CC4C49 /* Assets.xcassets */; };
+		0787A6991F781B3D00CC4C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0787A6971F781B3D00CC4C49 /* LaunchScreen.storyboard */; };
+		0787A6A41F781B3D00CC4C49 /* WifiGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787A6A31F781B3D00CC4C49 /* WifiGoTests.swift */; };
+		0787A6AF1F781B3D00CC4C49 /* WifiGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787A6AE1F781B3D00CC4C49 /* WifiGoUITests.swift */; };
+		0C54915814A29ECD5490D550 /* Pods_WifiGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAC4DCC48EA5773DEEE1EF /* Pods_WifiGoTests.framework */; };
+		2784A82EB6BF505E8AF6BEC4 /* Pods_WifiGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D10CFBB3236FB4D15CB7B7 /* Pods_WifiGoUITests.framework */; };
+		C9D2F9F62C8A56C0F7E437BF /* Pods_WifiGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9CD75AE7FA58E27FDDC9F6 /* Pods_WifiGo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0787A6A01F781B3D00CC4C49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0787A6831F781B3D00CC4C49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0787A68A1F781B3D00CC4C49;
+			remoteInfo = WifiGo;
+		};
+		0787A6AB1F781B3D00CC4C49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0787A6831F781B3D00CC4C49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0787A68A1F781B3D00CC4C49;
+			remoteInfo = WifiGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0787A68B1F781B3D00CC4C49 /* WifiGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0787A68E1F781B3D00CC4C49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0787A6901F781B3D00CC4C49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0787A6931F781B3D00CC4C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0787A6951F781B3D00CC4C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0787A6981F781B3D00CC4C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0787A69A1F781B3D00CC4C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0787A69F1F781B3D00CC4C49 /* WifiGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0787A6A31F781B3D00CC4C49 /* WifiGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiGoTests.swift; sourceTree = "<group>"; };
+		0787A6A51F781B3D00CC4C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0787A6AA1F781B3D00CC4C49 /* WifiGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0787A6AE1F781B3D00CC4C49 /* WifiGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiGoUITests.swift; sourceTree = "<group>"; };
+		0787A6B01F781B3D00CC4C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270D98056864C24C1DEB88D3 /* Pods-WifiGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiGoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifiGoUITests/Pods-WifiGoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3424061490AE0ADF3BB4C07E /* Pods-WifiGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiGo/Pods-WifiGo.debug.xcconfig"; sourceTree = "<group>"; };
+		3592F9834919A4C06F5E9794 /* Pods-WifiGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifiGo/Pods-WifiGo.release.xcconfig"; sourceTree = "<group>"; };
+		3B0A45240D9A695D0D7A8E4A /* Pods-WifiGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiGoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifiGoTests/Pods-WifiGoTests.release.xcconfig"; sourceTree = "<group>"; };
+		66D10CFBB3236FB4D15CB7B7 /* Pods_WifiGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WifiGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9CD75AE7FA58E27FDDC9F6 /* Pods_WifiGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WifiGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71BDABF63BB573652D9F3A5 /* Pods-WifiGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiGoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiGoUITests/Pods-WifiGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFD37B2E4DE4C5C2216BB794 /* Pods-WifiGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiGoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiGoTests/Pods-WifiGoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EECAC4DCC48EA5773DEEE1EF /* Pods_WifiGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WifiGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0787A6881F781B3D00CC4C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D2F9F62C8A56C0F7E437BF /* Pods_WifiGo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0787A69C1F781B3D00CC4C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C54915814A29ECD5490D550 /* Pods_WifiGoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0787A6A71F781B3D00CC4C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2784A82EB6BF505E8AF6BEC4 /* Pods_WifiGoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0787A6821F781B3D00CC4C49 = {
+			isa = PBXGroup;
+			children = (
+				0787A68D1F781B3D00CC4C49 /* WifiGo */,
+				0787A6A21F781B3D00CC4C49 /* WifiGoTests */,
+				0787A6AD1F781B3D00CC4C49 /* WifiGoUITests */,
+				0787A68C1F781B3D00CC4C49 /* Products */,
+				164D8B9A8E26A2070E77BE16 /* Pods */,
+				E3953D6DF4FCA2E1DD417F36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0787A68C1F781B3D00CC4C49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0787A68B1F781B3D00CC4C49 /* WifiGo.app */,
+				0787A69F1F781B3D00CC4C49 /* WifiGoTests.xctest */,
+				0787A6AA1F781B3D00CC4C49 /* WifiGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0787A68D1F781B3D00CC4C49 /* WifiGo */ = {
+			isa = PBXGroup;
+			children = (
+				0787A6BC1F781B6800CC4C49 /* Singleton */,
+				0787A68E1F781B3D00CC4C49 /* AppDelegate.swift */,
+				0787A6901F781B3D00CC4C49 /* ViewController.swift */,
+				0787A6921F781B3D00CC4C49 /* Main.storyboard */,
+				0787A6951F781B3D00CC4C49 /* Assets.xcassets */,
+				0787A6971F781B3D00CC4C49 /* LaunchScreen.storyboard */,
+				0787A69A1F781B3D00CC4C49 /* Info.plist */,
+			);
+			path = WifiGo;
+			sourceTree = "<group>";
+		};
+		0787A6A21F781B3D00CC4C49 /* WifiGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0787A6A31F781B3D00CC4C49 /* WifiGoTests.swift */,
+				0787A6A51F781B3D00CC4C49 /* Info.plist */,
+			);
+			path = WifiGoTests;
+			sourceTree = "<group>";
+		};
+		0787A6AD1F781B3D00CC4C49 /* WifiGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0787A6AE1F781B3D00CC4C49 /* WifiGoUITests.swift */,
+				0787A6B01F781B3D00CC4C49 /* Info.plist */,
+			);
+			path = WifiGoUITests;
+			sourceTree = "<group>";
+		};
+		0787A6BC1F781B6800CC4C49 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Singleton;
+			sourceTree = "<group>";
+		};
+		164D8B9A8E26A2070E77BE16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3424061490AE0ADF3BB4C07E /* Pods-WifiGo.debug.xcconfig */,
+				3592F9834919A4C06F5E9794 /* Pods-WifiGo.release.xcconfig */,
+				BFD37B2E4DE4C5C2216BB794 /* Pods-WifiGoTests.debug.xcconfig */,
+				3B0A45240D9A695D0D7A8E4A /* Pods-WifiGoTests.release.xcconfig */,
+				B71BDABF63BB573652D9F3A5 /* Pods-WifiGoUITests.debug.xcconfig */,
+				270D98056864C24C1DEB88D3 /* Pods-WifiGoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3953D6DF4FCA2E1DD417F36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B9CD75AE7FA58E27FDDC9F6 /* Pods_WifiGo.framework */,
+				EECAC4DCC48EA5773DEEE1EF /* Pods_WifiGoTests.framework */,
+				66D10CFBB3236FB4D15CB7B7 /* Pods_WifiGoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0787A68A1F781B3D00CC4C49 /* WifiGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0787A6B31F781B3D00CC4C49 /* Build configuration list for PBXNativeTarget "WifiGo" */;
+			buildPhases = (
+				E070AE87B8EDF0B4A257375E /* [CP] Check Pods Manifest.lock */,
+				0787A6871F781B3D00CC4C49 /* Sources */,
+				0787A6881F781B3D00CC4C49 /* Frameworks */,
+				0787A6891F781B3D00CC4C49 /* Resources */,
+				C41899B5426901202DBF2BFF /* [CP] Embed Pods Frameworks */,
+				F41BCED85A2F0079E123AF41 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiGo;
+			productName = WifiGo;
+			productReference = 0787A68B1F781B3D00CC4C49 /* WifiGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0787A69E1F781B3D00CC4C49 /* WifiGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0787A6B61F781B3D00CC4C49 /* Build configuration list for PBXNativeTarget "WifiGoTests" */;
+			buildPhases = (
+				E6969034DCE4346DEF8718EC /* [CP] Check Pods Manifest.lock */,
+				0787A69B1F781B3D00CC4C49 /* Sources */,
+				0787A69C1F781B3D00CC4C49 /* Frameworks */,
+				0787A69D1F781B3D00CC4C49 /* Resources */,
+				5C24FE2FC391865FD43D21D8 /* [CP] Embed Pods Frameworks */,
+				4517CA1A380211B39084A059 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0787A6A11F781B3D00CC4C49 /* PBXTargetDependency */,
+			);
+			name = WifiGoTests;
+			productName = WifiGoTests;
+			productReference = 0787A69F1F781B3D00CC4C49 /* WifiGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0787A6A91F781B3D00CC4C49 /* WifiGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0787A6B91F781B3D00CC4C49 /* Build configuration list for PBXNativeTarget "WifiGoUITests" */;
+			buildPhases = (
+				0A940A96076FB2F2317A1B6A /* [CP] Check Pods Manifest.lock */,
+				0787A6A61F781B3D00CC4C49 /* Sources */,
+				0787A6A71F781B3D00CC4C49 /* Frameworks */,
+				0787A6A81F781B3D00CC4C49 /* Resources */,
+				61FBC5EEB2DFA6A1310B2FE0 /* [CP] Embed Pods Frameworks */,
+				14EB260F5E67221BBBB9019C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0787A6AC1F781B3D00CC4C49 /* PBXTargetDependency */,
+			);
+			name = WifiGoUITests;
+			productName = WifiGoUITests;
+			productReference = 0787A6AA1F781B3D00CC4C49 /* WifiGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0787A6831F781B3D00CC4C49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hung Chang Lo";
+				TargetAttributes = {
+					0787A68A1F781B3D00CC4C49 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HV7YQRBGLU;
+						ProvisioningStyle = Automatic;
+					};
+					0787A69E1F781B3D00CC4C49 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HV7YQRBGLU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0787A68A1F781B3D00CC4C49;
+					};
+					0787A6A91F781B3D00CC4C49 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HV7YQRBGLU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0787A68A1F781B3D00CC4C49;
+					};
+				};
+			};
+			buildConfigurationList = 0787A6861F781B3D00CC4C49 /* Build configuration list for PBXProject "WifiGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0787A6821F781B3D00CC4C49;
+			productRefGroup = 0787A68C1F781B3D00CC4C49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0787A68A1F781B3D00CC4C49 /* WifiGo */,
+				0787A69E1F781B3D00CC4C49 /* WifiGoTests */,
+				0787A6A91F781B3D00CC4C49 /* WifiGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0787A6891F781B3D00CC4C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0787A6991F781B3D00CC4C49 /* LaunchScreen.storyboard in Resources */,
+				0787A6961F781B3D00CC4C49 /* Assets.xcassets in Resources */,
+				0787A6941F781B3D00CC4C49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0787A69D1F781B3D00CC4C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0787A6A81F781B3D00CC4C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A940A96076FB2F2317A1B6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14EB260F5E67221BBBB9019C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WifiGoUITests/Pods-WifiGoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4517CA1A380211B39084A059 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WifiGoTests/Pods-WifiGoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C24FE2FC391865FD43D21D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WifiGoTests/Pods-WifiGoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61FBC5EEB2DFA6A1310B2FE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WifiGoUITests/Pods-WifiGoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C41899B5426901202DBF2BFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WifiGo/Pods-WifiGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E070AE87B8EDF0B4A257375E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6969034DCE4346DEF8718EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F41BCED85A2F0079E123AF41 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WifiGo/Pods-WifiGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0787A6871F781B3D00CC4C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0787A6911F781B3D00CC4C49 /* ViewController.swift in Sources */,
+				0787A68F1F781B3D00CC4C49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0787A69B1F781B3D00CC4C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0787A6A41F781B3D00CC4C49 /* WifiGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0787A6A61F781B3D00CC4C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0787A6AF1F781B3D00CC4C49 /* WifiGoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0787A6A11F781B3D00CC4C49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0787A68A1F781B3D00CC4C49 /* WifiGo */;
+			targetProxy = 0787A6A01F781B3D00CC4C49 /* PBXContainerItemProxy */;
+		};
+		0787A6AC1F781B3D00CC4C49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0787A68A1F781B3D00CC4C49 /* WifiGo */;
+			targetProxy = 0787A6AB1F781B3D00CC4C49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0787A6921F781B3D00CC4C49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0787A6931F781B3D00CC4C49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0787A6971F781B3D00CC4C49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0787A6981F781B3D00CC4C49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0787A6B11F781B3D00CC4C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0787A6B21F781B3D00CC4C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0787A6B41F781B3D00CC4C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3424061490AE0ADF3BB4C07E /* Pods-WifiGo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HV7YQRBGLU;
+				INFOPLIST_FILE = WifiGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungclo.WifiGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0787A6B51F781B3D00CC4C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3592F9834919A4C06F5E9794 /* Pods-WifiGo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HV7YQRBGLU;
+				INFOPLIST_FILE = WifiGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungclo.WifiGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0787A6B71F781B3D00CC4C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD37B2E4DE4C5C2216BB794 /* Pods-WifiGoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HV7YQRBGLU;
+				INFOPLIST_FILE = WifiGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungclo.WifiGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WifiGo.app/WifiGo";
+			};
+			name = Debug;
+		};
+		0787A6B81F781B3D00CC4C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B0A45240D9A695D0D7A8E4A /* Pods-WifiGoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HV7YQRBGLU;
+				INFOPLIST_FILE = WifiGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungclo.WifiGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WifiGo.app/WifiGo";
+			};
+			name = Release;
+		};
+		0787A6BA1F781B3D00CC4C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71BDABF63BB573652D9F3A5 /* Pods-WifiGoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HV7YQRBGLU;
+				INFOPLIST_FILE = WifiGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungclo.WifiGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WifiGo;
+			};
+			name = Debug;
+		};
+		0787A6BB1F781B3D00CC4C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270D98056864C24C1DEB88D3 /* Pods-WifiGoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HV7YQRBGLU;
+				INFOPLIST_FILE = WifiGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungclo.WifiGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WifiGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0787A6861F781B3D00CC4C49 /* Build configuration list for PBXProject "WifiGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0787A6B11F781B3D00CC4C49 /* Debug */,
+				0787A6B21F781B3D00CC4C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0787A6B31F781B3D00CC4C49 /* Build configuration list for PBXNativeTarget "WifiGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0787A6B41F781B3D00CC4C49 /* Debug */,
+				0787A6B51F781B3D00CC4C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0787A6B61F781B3D00CC4C49 /* Build configuration list for PBXNativeTarget "WifiGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0787A6B71F781B3D00CC4C49 /* Debug */,
+				0787A6B81F781B3D00CC4C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0787A6B91F781B3D00CC4C49 /* Build configuration list for PBXNativeTarget "WifiGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0787A6BA1F781B3D00CC4C49 /* Debug */,
+				0787A6BB1F781B3D00CC4C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0787A6831F781B3D00CC4C49 /* Project object */;
+}

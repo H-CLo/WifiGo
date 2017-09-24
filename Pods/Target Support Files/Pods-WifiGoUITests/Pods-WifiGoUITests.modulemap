@@ -1,0 +1,6 @@
+framework module Pods_WifiGoUITests {
+  umbrella header "Pods-WifiGoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

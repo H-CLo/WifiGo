@@ -1,0 +1,6 @@
+framework module Pods_WifiGoTests {
+  umbrella header "Pods-WifiGoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
