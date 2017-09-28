@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0727A3401F7956FE00438639 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727A33F1F7956FE00438639 /* LocationManager.swift */; };
 		0787A68F1F781B3D00CC4C49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787A68E1F781B3D00CC4C49 /* AppDelegate.swift */; };
 		0787A6911F781B3D00CC4C49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787A6901F781B3D00CC4C49 /* ViewController.swift */; };
 		0787A6941F781B3D00CC4C49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0787A6921F781B3D00CC4C49 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		0787A6991F781B3D00CC4C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0787A6971F781B3D00CC4C49 /* LaunchScreen.storyboard */; };
 		0787A6A41F781B3D00CC4C49 /* WifiGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787A6A31F781B3D00CC4C49 /* WifiGoTests.swift */; };
 		0787A6AF1F781B3D00CC4C49 /* WifiGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787A6AE1F781B3D00CC4C49 /* WifiGoUITests.swift */; };
+		0787A6BE1F781E1A00CC4C49 /* WifiGoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787A6BD1F781E1A00CC4C49 /* WifiGoHelper.swift */; };
 		0C54915814A29ECD5490D550 /* Pods_WifiGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAC4DCC48EA5773DEEE1EF /* Pods_WifiGoTests.framework */; };
 		2784A82EB6BF505E8AF6BEC4 /* Pods_WifiGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D10CFBB3236FB4D15CB7B7 /* Pods_WifiGoUITests.framework */; };
 		C9D2F9F62C8A56C0F7E437BF /* Pods_WifiGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9CD75AE7FA58E27FDDC9F6 /* Pods_WifiGo.framework */; };
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0727A33F1F7956FE00438639 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		0787A68B1F781B3D00CC4C49 /* WifiGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0787A68E1F781B3D00CC4C49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0787A6901F781B3D00CC4C49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 		0787A6AA1F781B3D00CC4C49 /* WifiGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0787A6AE1F781B3D00CC4C49 /* WifiGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiGoUITests.swift; sourceTree = "<group>"; };
 		0787A6B01F781B3D00CC4C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0787A6BD1F781E1A00CC4C49 /* WifiGoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiGoHelper.swift; sourceTree = "<group>"; };
 		270D98056864C24C1DEB88D3 /* Pods-WifiGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiGoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifiGoUITests/Pods-WifiGoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3424061490AE0ADF3BB4C07E /* Pods-WifiGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiGo/Pods-WifiGo.debug.xcconfig"; sourceTree = "<group>"; };
 		3592F9834919A4C06F5E9794 /* Pods-WifiGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifiGo/Pods-WifiGo.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +150,8 @@
 		0787A6BC1F781B6800CC4C49 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				0787A6BD1F781E1A00CC4C49 /* WifiGoHelper.swift */,
+				0727A33F1F7956FE00438639 /* LocationManager.swift */,
 			);
 			name = Singleton;
 			sourceTree = "<group>";
@@ -458,6 +464,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0787A6911F781B3D00CC4C49 /* ViewController.swift in Sources */,
+				0727A3401F7956FE00438639 /* LocationManager.swift in Sources */,
+				0787A6BE1F781E1A00CC4C49 /* WifiGoHelper.swift in Sources */,
 				0787A68F1F781B3D00CC4C49 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -717,6 +725,7 @@
 				0787A6B51F781B3D00CC4C49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0787A6B61F781B3D00CC4C49 /* Build configuration list for PBXNativeTarget "WifiGoTests" */ = {
 			isa = XCConfigurationList;
@@ -725,6 +734,7 @@
 				0787A6B81F781B3D00CC4C49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0787A6B91F781B3D00CC4C49 /* Build configuration list for PBXNativeTarget "WifiGoUITests" */ = {
 			isa = XCConfigurationList;
@@ -733,6 +743,7 @@
 				0787A6BB1F781B3D00CC4C49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
