@@ -13,13 +13,17 @@ private let wifiGoHelper_sharedInstance = WifiGoHelper()
 
 final class WifiGoHelper {
     
+    let API : String = "http://www.gsp.gov.tw/iTaiwan/itw_tw.json"
+    
+    var freeWifiDict : [FreeWifi] = []
+    
     class func sharedInstance() -> WifiGoHelper {
         return wifiGoHelper_sharedInstance
     }
     
     func getWifiData() -> Void {
         
-        Alamofire.request("http://www.gsp.gov.tw/iTaiwan/itw_tw.json").responseJSON {
+        Alamofire.request(API).responseJSON {
             response in
             
             print("Request: \(String(describing: response.request))")   // original url request
@@ -33,10 +37,7 @@ final class WifiGoHelper {
             if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
                 print("Data: \(utf8Text)") // original server data as UTF8 string
             }
-            
-            
         }
-        
     }
     
 }
