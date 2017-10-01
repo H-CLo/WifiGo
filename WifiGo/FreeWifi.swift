@@ -15,5 +15,15 @@ class FreeWifi {
     var name : String?
     var address : String?
     var latitude : String?
-    var longitude : String?
+    var longtitude : String?
+    
+    init(siteId : String?, agency : String?, name : String?, address: String?, latitude : String?, longtitude : String?) {
+        
+        self.siteID = siteId
+        self.agency = agency
+        self.name = name
+        self.address = address
+        self.latitude = latitude
+        self.longtitude = longtitude
+    }
 }

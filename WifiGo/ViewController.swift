@@ -21,7 +21,9 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        WifiGoHelper.sharedInstance().getWifiData()
+        APIManager.sharedInstance().requestFreeWifiInfo {
+            success in
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,10 +31,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    func startGetJSON() -> Void {
-        
-        
+    func startUpdateMap() -> Void {
         
     }
     
