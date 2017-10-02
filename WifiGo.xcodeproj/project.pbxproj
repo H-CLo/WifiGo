@@ -19,6 +19,8 @@
 		07D419521F8009F400D3D1FA /* FreeWifiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D419511F8009F400D3D1FA /* FreeWifiKey.swift */; };
 		07D419541F8168D300D3D1FA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D419531F8168D300D3D1FA /* APIManager.swift */; };
 		07D419571F81694500D3D1FA /* Cacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D419561F81694500D3D1FA /* Cacher.swift */; };
+		07D4195B1F82A04900D3D1FA /* ViewController_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4195A1F82A04900D3D1FA /* ViewController_Extension.swift */; };
+		07D4195D1F82A32600D3D1FA /* UIViewController_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4195C1F82A32600D3D1FA /* UIViewController_Extension.swift */; };
 		0C54915814A29ECD5490D550 /* Pods_WifiGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAC4DCC48EA5773DEEE1EF /* Pods_WifiGoTests.framework */; };
 		2784A82EB6BF505E8AF6BEC4 /* Pods_WifiGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D10CFBB3236FB4D15CB7B7 /* Pods_WifiGoUITests.framework */; };
 		C9D2F9F62C8A56C0F7E437BF /* Pods_WifiGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9CD75AE7FA58E27FDDC9F6 /* Pods_WifiGo.framework */; };
@@ -60,6 +62,8 @@
 		07D419511F8009F400D3D1FA /* FreeWifiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeWifiKey.swift; sourceTree = "<group>"; };
 		07D419531F8168D300D3D1FA /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		07D419561F81694500D3D1FA /* Cacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cacher.swift; sourceTree = "<group>"; };
+		07D4195A1F82A04900D3D1FA /* ViewController_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Extension.swift; sourceTree = "<group>"; };
+		07D4195C1F82A32600D3D1FA /* UIViewController_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController_Extension.swift; sourceTree = "<group>"; };
 		270D98056864C24C1DEB88D3 /* Pods-WifiGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiGoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifiGoUITests/Pods-WifiGoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3424061490AE0ADF3BB4C07E /* Pods-WifiGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifiGo/Pods-WifiGo.debug.xcconfig"; sourceTree = "<group>"; };
 		3592F9834919A4C06F5E9794 /* Pods-WifiGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifiGo/Pods-WifiGo.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,11 +137,13 @@
 		0787A68D1F781B3D00CC4C49 /* WifiGo */ = {
 			isa = PBXGroup;
 			children = (
+				07D419591F829EF700D3D1FA /* Extension */,
 				07D419551F81692100D3D1FA /* Helper */,
 				076803E91F8000CE00311D9E /* Model */,
 				0787A6BC1F781B6800CC4C49 /* Singleton */,
 				0787A68E1F781B3D00CC4C49 /* AppDelegate.swift */,
 				0787A6901F781B3D00CC4C49 /* ViewController.swift */,
+				07D4195A1F82A04900D3D1FA /* ViewController_Extension.swift */,
 				0787A6921F781B3D00CC4C49 /* Main.storyboard */,
 				0787A6951F781B3D00CC4C49 /* Assets.xcassets */,
 				0787A6971F781B3D00CC4C49 /* LaunchScreen.storyboard */,
@@ -179,6 +185,14 @@
 				07D419561F81694500D3D1FA /* Cacher.swift */,
 			);
 			name = Helper;
+			sourceTree = "<group>";
+		};
+		07D419591F829EF700D3D1FA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				07D4195C1F82A32600D3D1FA /* UIViewController_Extension.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 		164D8B9A8E26A2070E77BE16 /* Pods */ = {
@@ -492,6 +506,8 @@
 				07D419501F8008B700D3D1FA /* FreeWifi.swift in Sources */,
 				0787A6911F781B3D00CC4C49 /* ViewController.swift in Sources */,
 				0727A3401F7956FE00438639 /* LocationManager.swift in Sources */,
+				07D4195B1F82A04900D3D1FA /* ViewController_Extension.swift in Sources */,
+				07D4195D1F82A32600D3D1FA /* UIViewController_Extension.swift in Sources */,
 				07D419571F81694500D3D1FA /* Cacher.swift in Sources */,
 				0787A68F1F781B3D00CC4C49 /* AppDelegate.swift in Sources */,
 				07D419541F8168D300D3D1FA /* APIManager.swift in Sources */,

@@ -27,7 +27,7 @@ final class APIManager {
     
     func requestFreeWifiInfo(nextTask : @escaping (_ success : Bool) -> Void ) -> Void {
         
-        let data = Cacher(destination: Cacher.CacheDestination.atFolder(""))
+        //let data = Cacher(destination: Cacher.CacheDestination.atFolder(""))
         
         
         

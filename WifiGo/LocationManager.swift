@@ -9,9 +9,15 @@
 import Foundation
 import MapKit
 
+protocol LocationManagerDelegate : class {
+    func viewNeedKnowLocationAuthorizationStatus(status : CLAuthorizationStatus) -> Void
+}
+
 private let locationManager_sharedInstance = LocationManager()
 
 final class LocationManager : NSObject {
+    
+    weak var delegate : LocationManagerDelegate? = nil
     
     let manager = CLLocationManager()
     
@@ -19,25 +25,43 @@ final class LocationManager : NSObject {
         return locationManager_sharedInstance
     }
     
-    func isUserAllowLocation() -> Bool {
+    func setup() -> Void {
         
-        manager.requestWhenInUseAuthorization()
+        manager.delegate = self
+        manager.distanceFilter = kCLLocationAccuracyNearestTenMeters;
+        manager.desiredAccuracy = kCLLocationAccuracyBest
         
-        if CLLocationManager.locationServicesEnabled() {
+        requestAuthorization()
+    }
+    
+    func requestAuthorization() -> Void {
+        
+        func isUserAllowLocation() -> Bool {
             
-            return true
+            if CLLocationManager.locationServicesEnabled() {
+                
+                return true
+            }
+            
+            return false
         }
         
-        return false
+        if !isUserAllowLocation(){
+            manager.requestAlwaysAuthorization()
+        }
     }
     
     func startUpdateLocation() -> Void {
         
-        manager.delegate = self
-        manager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
         manager.startUpdatingLocation()
-        
     }
+    
+    func startMonitorRegion(region : CLRegion) -> Void {
+        
+        manager.startMonitoring(for: region)
+    }
+    
+    
     
 }
 
@@ -45,5 +69,10 @@ extension LocationManager : CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        
+        delegate?.viewNeedKnowLocationAuthorizationStatus(status: status)
     }
 }
